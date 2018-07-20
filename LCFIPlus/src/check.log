@@ -1,0 +1,42 @@
+algoEtc.cc:  double dist = sqrt(tr->getD0() *tr->getD0() + tr->getZ0() * tr->getZ0());
+algoEtc.cc:  double sigz0 = fabs(tr->getZ0()) / sqrt(tr->getCovMatrix()[tpar::z0z0]);
+algoEtc.cc:  double dist = sqrt(tr->getD0() *tr->getD0() + tr->getZ0() * tr->getZ0());
+algoEtc.cc:  double sigz0 = fabs(tr->getZ0()) / sqrt(tr->getCovMatrix()[tpar::z0z0]);
+algoSigProb.cc:                trk->getD0()*cos(trk->getPhi()), trk->getZ0() );
+algoSigProb.cc:                trk->getD0()*cos(trk->getPhi()), trk->getZ0() );
+algoSigProb.cc:                trk->getD0()*cos(trk->getPhi()), trk->getZ0() );
+algoSigProb.cc:  double z0 = trk->getZ0() - pri->getZ();
+algoSigProb.cc:                trk->getD0()*cos(trk->getPhi()), trk->getZ0() );
+algoSigProb.cc:  double z0 = trk->getZ0() - pri->getZ();
+Driver.cc:        data.z0 = tr->getZ0();
+Driver.cc:    _dz(1) = trk.getZ0();
+Driver.cc:      double z0 = trk->getZ0();
+EventNavigator.cc:    double z0 = part->getZ0();
+EventNavigator.cc:          double z0 = part->getZ0();
+EventNavigator.cc:  			//if (fabs(trk->getD0())<50 && fabs(trk->getZ0())<50) {
+EventNavigator.cc:  			if (fabs(trk->getD0())<10 && fabs(trk->getZ0())<10) {
+EventNavigator.cc:    double z0 = part->getZ0();
+FlavorTag.cc:        double lz0 = log10(fabs(tracks[n]->getZ0()));
+FlavorTag.cc:        double lz0 = log10(fabs(tracks[n]->getZ0()));
+FlavorTag.cc:        double lz0 = log10(fabs(tracks[n]->getZ0()));
+geometry.cc:  _hel(iz0) = trk->getZ0();
+LcfiInterface.cc:  H.z0()	= track->getZ0();
+LcfiInterface.cc:    if (fabs(trk->getZ0()) > cfg.maxZ0) {
+lcfiplus.cc:double MCParticle::getZ0() const {
+lcfiplus.cc:  return h.getZ0();
+LCIOStorer.cc:        assert( trk->getZ0() == trk->getZ0() );
+LCIOStorer.cc:        par[lcfiplus::tpar::z0] = trk->getZ0();
+process.cc:	  _var[4]=sign*fabs(nj->getTracks()[ntr]->getZ0())/sqrt(nj->getTracks()[ntr]->getCovMatrix()[tpar::z0z0]);
+process.cc:	  _var[6]=sign*fabs(nj->getTracks()[ntr]->getZ0());
+testproc.cc:                fabs(tr->getZ0()), fabs(tr->getZ0() / sqrt(tr->getCovMatrix()[tpar::z0z0])),
+testproc.cc:    z0 = tr->getZ0();
+VertexFinderSuehara.cc:// 		cout << ", D0 = " << (*trkit1)->getD0() << ", Z0 = " << (*trkit1)->getZ0();
+VertexFinderSuehara.cc:// 		cout << ", D0 = " << (*trkit1)->getD0() << ", Z0 = " << (*trkit1)->getZ0();
+VertexFinderSuehara.cc:// 		cout << ", D0 = " << (*trkit1)->getD0() << ", Z0 = " << (*trkit1)->getZ0();
+VertexFinderSuehara.cc:                        + pow((*trkit1)->getZ0() / sqrt((*trkit1)->getCovMatrix()[tpar::z0z0]),2));
+VertexFinderSuehara.cc:    cout << ", D0 = " << (*trkit1)->getD0() << ", Z0 = " << (*trkit1)->getZ0();
+VertexFinderSuehara.cc:      h1.Initialize_Canonical((*trkit1)->getPhi(), (*trkit1)->getD0(), (*trkit1)->getZ0(), (*trkit1)->getOmega(), (*trkit1)->getTanLambda(), Globals::Instance()->getBField());
+VertexFinderSuehara.cc:      h2.Initialize_Canonical((*trkit2)->getPhi(), (*trkit2)->getD0(), (*trkit2)->getZ0(), (*trkit2)->getOmega(), (*trkit2)->getTanLambda(), Globals::Instance()->getBField());
+VertexFinderSuehara.cc:      h1.Initialize_Canonical((*trkit1)->getPhi(), (*trkit1)->getD0(), (*trkit1)->getZ0(),
+VertexFinderSuehara.cc:      h2.Initialize_Canonical((*trkit2)->getPhi(), (*trkit2)->getD0(), (*trkit2)->getZ0(),
+VertexFinderSuehara.cc:    double z0 = track->getZ0();

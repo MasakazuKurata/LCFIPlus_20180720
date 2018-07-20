@@ -1,0 +1,7 @@
+lcfiplus.h:  double getZ0()         const {
+lcfiplus.h:  double getZ0()const;
+TrackSelector.h:    if (fabs(trk->getZ0()) < cfg.minZ0) return false;
+TrackSelector.h:    if (fabs(trk->getZ0()) > cfg.maxZ0) return false;
+TrackSelector.h:    double z0sig = fabs(trk->getZ0()) / sqrt(trk->getCovMatrix()[tpar::z0z0]);
+VertexFinderSuehara.h:    double ipsig1 = sqrt(pow(p1->getD0() / p1->getCovMatrix()[tpar::d0d0],2) + pow(p1->getZ0() / p1->getCovMatrix()[tpar::z0z0],2));
+VertexFinderSuehara.h:    double ipsig2 = sqrt(pow(p2->getD0() / p2->getCovMatrix()[tpar::d0d0],2) + pow(p2->getZ0() / p2->getCovMatrix()[tpar::z0z0],2));
